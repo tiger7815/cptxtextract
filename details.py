@@ -3,14 +3,14 @@
 from os import getenv
 
 
-API_ID = int(getenv("API_ID", "0000000"))
+API_ID = int(getenv("API_ID", "27862677"))
 API_HASH = getenv("API_HASH", "f165b1caec3cfa4df943fe1cbe82d22a")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-OWNER_ID = int(getenv("OWNER_ID", "000000000"))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6050200019 20000898623").split()))
+BOT_TOKEN = getenv("BOT_TOKEN", "6891484332:AAHAiVZDQZc7CHW8SRYg_iVe-rC3e20_E2w")
+OWNER_ID = int(getenv("OWNER_ID", "5881684718"))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5881684718 20000898623").split()))
 MONGO_URL = getenv("MONGO_DB", "mongodb+srv://daxxop:daxxop@daxxop.dg3umlc.mongodb.net/?retryWrites=true&w=majority")
 
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002000006"))
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002111115192"))
 
 """
 #
